@@ -1,7 +1,6 @@
 #! /bin/bash
 
 ran=$(( RANDOM % 2 ))
-
 echo $ran
 
 if [ $ran -eq 0 ]
